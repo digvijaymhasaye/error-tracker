@@ -1,0 +1,23 @@
+{
+  "name": "error-tracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:digvijaymhasaye/error-tracker.git"
+  },
+  "keywords": [],
+  "author": "Digvijay Mhasaye <digvijaymhasaye8@gmail.com>",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.858.0",
+    "@aws-sdk/client-sesv2": "^3.858.0",
+    "nodemailer": "^7.0.5",
+    "stack-trace": "^1.0.0-pre2",
+    "winston": "^3.17.0"
+  }
+}
